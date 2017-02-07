@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=GFS+Didot|Poly|Rufina|Shadows+Into+Light');
+
+
 * {
 	padding:0;
 	margin:0;
@@ -12,13 +15,13 @@ ul {
 }
 
 body {
-	font-family: helvetica;
+	font-family: "Poly";
 	color:#1f1f2e;
 }
 
 header {
 	background-color:#262626;
-	padding-top:20px;
+
 }
 
 nav {
@@ -30,14 +33,14 @@ nav {
 }
 
 h1,h2,h3 {
-	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
 h1 {
 	text-align:center;
-	font-family:fantasy;
+	font-family:"shadows into Light";
 	color:#f0f0f5;
+	font-size:40px;
 }
 
 h2 {
@@ -47,10 +50,6 @@ h2 {
 	width:385px;
 	color:white;
 	word-wrap: break-word;
-}
-
-h3{
-	font-family: helvetica;
 }
 
 a {
