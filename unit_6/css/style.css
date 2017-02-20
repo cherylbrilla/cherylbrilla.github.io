@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=GFS+Didot|Poly|Rufina|Shadows+Into+Light');
+
+
+* {
+	padding:0;
+	margin:0;
+}
+
+nav {
+	background-color:##383633;
+	text-align: center;
+	color:#bf00ff;
+	padding: 10px;
+}
+
+header {
+	background-color:#383633;
+}
+
+article {
+	padding:20px;
+	background-color: #a5e7df;
+}
+
+
+body {
+	font-family: "Poly";
+	color:#1f1f2e;
+}
+
+
+footer {
+	background-color: #cccccc;
+	text-align: center;
+	padding: 20px;
+}
+
+h1,h2,h3 {
+	margin-bottom: 10px;
+}
+
+h1 {
+	text-align:center;
+	font-family:"shadows into Light";
+	color:#f0f0f5;
+	font-size:40px;
+}
+
+h2 {
+	position:absolute;
+	top:225px;
+	left:50px;
+	width:385px;
+	color:white;
+	word-wrap: break-word;
+}
+
+a {
+	color:inherit;
+	text-decoration: none;
+}
+
+img {
+	width:300px;
+}
+
+
+#two_column {
+    background-color: #600be7;
+    border: 1px black solid;
+    padding: 20px;
+
+}
+
+#left {
+    background-color: #e575c4;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: #e575c4;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 62%;
+}
+
+
+
+#slogan {
+	font-style:italic;
+	text-align:center;
+	color:#ffe6ff;
+}
+
+.column {
+	width: 300px;
+	padding: 20px;
+	margin: 0px;
+	float: left;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+.image {
+	position:relative;
+	height:600px;
+	width:100%;
+	background-image:url(../images/bluemts.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+
+
+.articlecard {
+	color:#333333;
+	word-wrap: break-word;
+	width:285px;
+	text-align: center;
+}
+
+
